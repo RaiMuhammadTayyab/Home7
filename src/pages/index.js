@@ -1,6 +1,7 @@
 import React  from "react"
 import {useQuery,useMutation} from '@apollo/client';
 import gql from 'graphql-tag'
+console.log('Enter')
 const Person_name= gql`
 {
 allPerson{
